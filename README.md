@@ -128,20 +128,22 @@ Los clusters se forman expandiendo los core points mediante búsqueda en anchura
 
 ---
 
-## Referencias
+## Referencias (formato IEEE)
 
-```
-[1] Ester, M., Kriegel, H.-P., Sander, J., & Xu, X. (1996). A density-based algorithm
-    for discovering clusters in large spatial databases with noise. KDD-96, 226–231.
+[1] M. Ester, H.-P. Kriegel, J. Sander, and X. Xu, "A density-based algorithm for discovering clusters in large spatial databases with noise," in *Proc. KDD-96*, Portland, OR, USA, 1996, pp. 226-231.
 
-[2] Schubert, E., Sander, J., Ester, M., Kriegel, H. P., & Xu, X. (2017).
-    DBSCAN revisited, revisited: why and how you should (still) use DBSCAN.
-    ACM Transactions on Database Systems, 42(3), 1–21.
+[2] J. Sander, M. Ester, H.-P. Kriegel, and X. Xu, "Density-based clustering in spatial databases: The algorithm GDBSCAN and its applications," *Data Mining and Knowledge Discovery*, vol. 2, no. 2, pp. 169-194, Jun. 1998.
 
-[3] Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python.
-    Journal of Machine Learning Research, 12, 2825–2830.
+[3] E. Schubert, J. Sander, M. Ester, H.-P. Kriegel, and X. Xu, "DBSCAN revisited, revisited: why and how you should (still) use DBSCAN," *ACM Trans. Database Syst.*, vol. 42, no. 3, pp. 1-21, 2017, doi: 10.1145/3068335.
 
-[4] Rahmah, N., & Sitanggang, I. S. (2016). Determination of optimal epsilon (eps)
-    value on DBSCAN algorithm to clustering data on peatland hotspots.
-    IOP Conference Series: Earth and Environmental Science, 31, 012012.
-```
+[4] F. Pedregosa et al., "Scikit-learn: Machine learning in Python," *Journal of Machine Learning Research*, vol. 12, pp. 2825-2830, 2011.
+
+[5] T. Hastie, R. Tibshirani, and J. H. Friedman, *The Elements of Statistical Learning*, 2nd ed. New York, NY, USA: Springer, 2009.
+
+[6] Scikit-learn Developers, "sklearn.cluster.DBSCAN," *scikit-learn 1.3 documentation*, 2024. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html.
+
+[7] N. Rahmah and I. S. Sitanggang, "Determination of optimal epsilon (eps) value on DBSCAN algorithm to clustering data on peatland hotspots in Sumatra," *IOP Conf. Series: Earth and Environmental Science*, vol. 31, no. 1, p. 012012, 2016.
+
+[8] T. Ali, S. Asghar, and N. A. Sajid, "Critical analysis of DBSCAN variations," in *Proc. 2010 Int. Conf. Information and Emerging Technologies (ICIET)*, Karachi, Pakistan, 2010, pp. 1-6.
+
+[9] Mall Customers Dataset, *Kaggle*, 2018. [Online]. Available: https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python.
