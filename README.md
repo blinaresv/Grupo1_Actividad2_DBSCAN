@@ -124,7 +124,7 @@ DBSCAN clasifica cada punto en una de tres categorías:
 - **Border point**: está en la vecindad de un core point pero no es core.
 - **Noise point**: no es core ni cae en la vecindad de ninguno (outlier).
 
-Los clusters se forman expandiendo los core points mediante búsqueda en anchura (BFS), conectando todos los puntos densamente alcanzables.
+DBSCAN forma los clusters con búsqueda en anchura (BFS): arranca desde un core point y recorre todos los puntos densamente alcanzables desde él.
 
 ---
 
