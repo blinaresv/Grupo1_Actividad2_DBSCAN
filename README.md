@@ -15,12 +15,12 @@
 
 ## Descripción del proyecto
 
-Implementación completa del algoritmo **DBSCAN** (*Density-Based Spatial Clustering of Applications with Noise*), un método de clustering no supervisado que descubre grupos de forma arbitraria y detecta outliers automáticamente, sin necesidad de especificar el número de clusters de antemano.
+El proyecto implementa el algoritmo **DBSCAN** (*Density-Based Spatial Clustering of Applications with Noise*), un método de clustering no supervisado que descubre grupos de forma arbitraria y detecta outliers automáticamente, sin necesidad de especificar el número de clusters de antemano.
 
 El proyecto se divide en dos notebooks:
 
 - **Notebook 1**: implementación manual desde cero usando solo NumPy, sin librerías de ML.
-- **Notebook 2**: implementación profesional con `scikit-learn` aplicada a datos reales de clientes de un centro comercial.
+- **Notebook 2**: implementación con `scikit-learn` aplicada a datos reales de clientes de un centro comercial.
 
 ---
 
@@ -99,7 +99,7 @@ jupyter nbconvert --to notebook --execute --inplace Grupo1_Notebook2_Librerias_F
 | `Annual Income (k$)` | Ingreso anual en miles de dólares |
 | `Spending Score (1-100)` | Índice de comportamiento de compra |
 
-- **200 registros** · 5 columnas
+- **300 registros** · 5 columnas
 - El modelo usa únicamente `Annual Income (k$)` y `Spending Score (1-100)` tras estandarización z-score.
 
 ---
@@ -116,7 +116,7 @@ jupyter nbconvert --to notebook --execute --inplace Grupo1_Notebook2_Librerias_F
 
 ---
 
-## Algoritmo DBSCAN — resumen
+## Algoritmo DBSCAN
 
 DBSCAN clasifica cada punto en una de tres categorías:
 
@@ -128,7 +128,7 @@ DBSCAN forma los clusters con búsqueda en anchura (BFS): arranca desde un core 
 
 ---
 
-## Referencias (formato IEEE)
+## Referencias
 
 [1] M. Ester, H.-P. Kriegel, J. Sander, and X. Xu, "A density-based algorithm for discovering clusters in large spatial databases with noise," in *Proc. KDD-96*, Portland, OR, USA, 1996, pp. 226-231.
 
